@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.juankortiz.introduccionjavafx.dashboard.DashboardController">
+   <children>
+      <HBox prefHeight="600.0" prefWidth="762.0">
+         <children>
+            <VBox prefHeight="600.0" prefWidth="218.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="36.0" prefWidth="226.0" text="DASHBOARD" />
+                  <Button mnemonicParsing="false" onAction="#clickInicio" prefHeight="26.0" prefWidth="227.0" text="Inicio" />
+                  <Button mnemonicParsing="false" onAction="#clickVentas" prefHeight="26.0" prefWidth="225.0" text="Ventas" />
+                  <Button mnemonicParsing="false" onAction="#clickAjustes" prefHeight="26.0" prefWidth="220.0" text="Ajustes" />
+               </children>
+            </VBox>
+            <VBox prefHeight="600.0" prefWidth="544.0">
+               <children>
+                  <Label fx:id="labContenido" alignment="CENTER" prefHeight="602.0" prefWidth="569.0" text="Selecciona una opcion del menu">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
