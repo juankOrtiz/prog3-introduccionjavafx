@@ -1,0 +1,17 @@
+/* Estilos generales de todos los botones */
+.button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+/* Estilo de los botones secundarios (clase) */
+.boton-secundario {
+    -fx-background-color: lightgray;
+    -fx-text-fill: black;
+}
+
+/* Estilo de un boton que tiene el ID botonCancelar */
+#botonCancelar {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
