@@ -14,4 +14,7 @@ module com.juankortiz.introduccionjavafx {
 
     opens com.juankortiz.introduccionjavafx.estilos to javafx.fxml;
     exports com.juankortiz.introduccionjavafx.estilos;
+
+    opens com.juankortiz.introduccionjavafx.libro to javafx.fxml;
+    exports com.juankortiz.introduccionjavafx.libro;
 }
